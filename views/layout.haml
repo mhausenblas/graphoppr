@@ -1,32 +1,32 @@
 !!!
 %html
-  %head
-    %link(rel="stylesheet" href="/gh.css")
-	%title graphoppr
-	%link{:href => "gh.css", :rel => "stylesheet"}
-	  #top
-	    %a{:href => "", :title => "home"}
-	      %img{:alt => "the awesome graphoppr logo", :src => "/img/gh-logo.png"}/
-	    %h1 graphoppr
-	    %nav
-	      %span#restart restart
-	      |
-	      %span#about about
-	      |
-	      %a{:href => "https://github.com/mhausenblas/graphopper"} source
-	    #start
-	      %input#seed{:placeholder => "Please provide me with the URI of the entity I'm supposed to dart away", :size => "100", :type => "url", :value => ""}/
-	  #main
-	    #prev-entity
-	      %img{:alt => "previous entity", :src => "img/prev-entity.png"}/
-	    #entity
-	      #entity-identity undefined
-	      #entity-label undefined
-	      #entity-props undefined
-	    #next-entity
-	      %img{:alt => "next entity", :src => "img/next-entity.png"}/
-	    #trace No trace, yet
-	    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
-		%script{:src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"}
-		%script{:src => "/gh.js"}
-    
+ %head
+  %link(rel="stylesheet" href="/gh.css")
+  %title graphoppr
+  %link{:href => "gh.css", :rel => "stylesheet"}
+ %body
+  #top
+   %a{:href => "", :title => "home"}
+    %img{:alt => "the awesome graphoppr logo", :src => "/img/gh-logo.png"}/
+   %h1 graphoppr
+   %nav
+    %span#restart restart
+    |
+    %span#about about
+    |
+    %a{:href => "https://github.com/mhausenblas/graphopper"} source
+   #start
+    %input#seed{:placeholder => "Please provide me with the URI of the entity I'm supposed to dart away", :size => "100", :type => "url", :value => ""}/
+  #main
+   #prev-entity
+    %img{:alt => "previous entity", :src => "img/prev-entity.png"}/
+   #entity
+    #entity-identity undefined
+    #entity-label undefined
+    #entity-props undefined
+   #next-entity
+    %img{:alt => "next entity", :src => "img/next-entity.png"}/
+   #trace No trace, yet
+ %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+ %script{:src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"}
+ %script{:src => "/gh.js"}  
